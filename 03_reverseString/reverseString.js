@@ -5,6 +5,8 @@ const reverseString = function(word) {
     }
 
     return charToAppend;
+
+    //or easier return string.split('').reverse().join('');
 };
 
 // Do not edit below this line
