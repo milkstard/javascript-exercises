@@ -3,11 +3,11 @@ function roundConversion(toRound){
 }
 
 const ftoc = function(setF) {
-  return roundConversion((setF-32) * 59);
+  return roundConversion((setF-32) * 5/9);
 };
 
 const ctof = function(setC) {
-  return roundConversion(setC * 95 + 32);
+  return roundConversion(setC * 9/5 + 32);
 };
 
 // 	[°F] = [°C] × 9⁄5 + 32 	[°C] = ([°F] − 32) × 5⁄9
