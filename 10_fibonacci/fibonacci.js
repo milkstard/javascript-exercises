@@ -6,6 +6,9 @@ const fibonacci = function(num1) {
     if(!Number.isInteger(num1)){
         num1 = parseInt(num1);
     }
+    if(num1 <= 0){
+        return "OOPS";
+    }
 
     for( let i = 1; i <= num1; i++){
         nextFibo = previousFibo + currentFibo;
